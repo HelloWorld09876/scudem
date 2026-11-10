@@ -1,0 +1,122 @@
+{
+  "oat": [
+    {
+      "parameter": "skin\u2013socket friction",
+      "minus25": 0.0,
+      "plus25": 0.0
+    },
+    {
+      "parameter": "proximal growth share",
+      "minus25": -0.6416015625,
+      "plus25": 0.6279296875000284
+    },
+    {
+      "parameter": "fit tightness",
+      "minus25": 1.9003906250000142,
+      "plus25": -1.9482421875
+    },
+    {
+      "parameter": "prosthesis mass",
+      "minus25": 1.7578125000000213,
+      "plus25": -2.011718750000014
+    },
+    {
+      "parameter": "tissue stiffening B",
+      "minus25": 4.054687500000043,
+      "plus25": -2.9736328125
+    },
+    {
+      "parameter": "tissue modulus E",
+      "minus25": 5.71972656250005,
+      "plus25": -4.110351562500021
+    },
+    {
+      "parameter": "soft-tissue thickness",
+      "minus25": -6.044921875000028,
+      "plus25": 6.516601562500071
+    },
+    {
+      "parameter": "object mass",
+      "minus25": 4.809570312500057,
+      "plus25": -7.4521484375000355
+    },
+    {
+      "parameter": "pressure tolerance",
+      "minus25": -21.590820312500142,
+      "plus25": 9.421875000000085
+    },
+    {
+      "parameter": "residual-limb length",
+      "minus25": -21.590820312500142,
+      "plus25": 8.334960937500064
+    },
+    {
+      "parameter": "residual-limb radius",
+      "minus25": -21.590820312500142,
+      "plus25": 5.062500000000043
+    },
+    {
+      "parameter": "movement speed",
+      "minus25": 7.259765625000064,
+      "plus25": -21.590820312500142
+    }
+  ],
+  "baseline_months": 21.590820312500142,
+  "standard": {
+    "median": 17.475585937500128,
+    "lo": 0.0,
+    "hi": 41.46596679687528,
+    "slip_day_one": 0.0225,
+    "day_one": 0.29
+  },
+  "individual": {
+    "median": 21.117675781250153,
+    "lo": 0.0,
+    "hi": 42.808789062500296,
+    "day_one": 0.2425
+  },
+  "closure": {
+    "median": 9.67413330078125,
+    "lo": 4.0,
+    "hi": 16.107366943359374,
+    "never_fraction": 0.33,
+    "already_closed_at_4": 0.145,
+    "closing_between_median": 11.495574951171875,
+    "closing_between_lo": 5.18345947265625,
+    "closing_between_hi": 16.29927368164062,
+    "closing_between_n": 210,
+    "within_one_year_of_baseline": 0.1125,
+    "before_12": 0.4375,
+    "after_15_or_never": 0.395,
+    "median_never_counted_as_late": 13.26116943359375
+  },
+  "rho_s0_lifetime": -0.7762713575296184,
+  "spearman_lifetime": {
+    "tissue_modulus": -0.379465194689563,
+    "tissue_stiffening": -0.24080733273745636,
+    "pressure_tolerance": 0.383380813682623,
+    "friction": 0.1153190127308304,
+    "prosthesis_mass": -0.06418474716066935,
+    "residual_fraction": 0.45815675589866406,
+    "soft_tissue_fraction": 0.3660553751436489,
+    "atrophy_ratio": 0.06303986968930424,
+    "proximal_growth_share": 0.06647148245671551
+  },
+  "spearman_closure": {
+    "tissue_modulus": 0.012930015795944034,
+    "tissue_stiffening": -0.03755344035253792,
+    "pressure_tolerance": 0.2826541555780424,
+    "friction": 0.09419330092046015,
+    "prosthesis_mass": -0.03954291455424,
+    "residual_fraction": 0.7474069213075311,
+    "soft_tissue_fraction": -0.025188936514715498,
+    "atrophy_ratio": 0.06454700228486034,
+    "proximal_growth_share": -0.01913466888106339
+  },
+  "top_drivers": [
+    "residual-limb length",
+    "pressure tolerance",
+    "tissue modulus E"
+  ],
+  "samples": 400
+}

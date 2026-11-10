@@ -1,0 +1,279 @@
+{
+  "state_errors": {
+    "height_rel": 7.758749253246985e-10,
+    "length_rel": 4.323763349721141e-10,
+    "radius_rel": 2.5663083288016186e-09,
+    "strain_abs": 6.006602909502945e-09,
+    "fit_pressure_rel": 5.5461437458206066e-08
+  },
+  "lifetimes": [
+    {
+      "sex": "boy",
+      "fit_age": 5.0,
+      "fit": "standard",
+      "ode_months": 23.626774823319735,
+      "search_months": 23.62695312499992,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "boy",
+      "fit_age": 5.0,
+      "fit": "patient-specific",
+      "ode_months": 26.555067228662754,
+      "search_months": 26.5556640624999,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "boy",
+      "fit_age": 6.0,
+      "fit": "standard",
+      "ode_months": 23.89889646543844,
+      "search_months": 23.89941406249992,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "boy",
+      "fit_age": 6.0,
+      "fit": "patient-specific",
+      "ode_months": 27.008798906184076,
+      "search_months": 27.009765624999943,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "boy",
+      "fit_age": 8.0,
+      "fit": "standard",
+      "ode_months": 21.590204935037,
+      "search_months": 21.590820312500142,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "boy",
+      "fit_age": 8.0,
+      "fit": "patient-specific",
+      "ode_months": 24.35640500810753,
+      "search_months": 24.356445312500185,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "boy",
+      "fit_age": 10.0,
+      "fit": "standard",
+      "ode_months": 20.990904801393413,
+      "search_months": 20.99121093750015,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "boy",
+      "fit_age": 10.0,
+      "fit": "patient-specific",
+      "ode_months": 24.014280729474756,
+      "search_months": 24.01464843750017,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "boy",
+      "fit_age": 12.0,
+      "fit": "standard",
+      "ode_months": 26.928394963889474,
+      "search_months": 26.928710937500185,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "boy",
+      "fit_age": 12.0,
+      "fit": "patient-specific",
+      "ode_months": 30.72512622734928,
+      "search_months": 30.725585937500227,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 5.0,
+      "fit": "standard",
+      "ode_months": 21.524678437100164,
+      "search_months": 21.525390624999922,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 5.0,
+      "fit": "patient-specific",
+      "ode_months": 24.343794866740986,
+      "search_months": 24.344726562499908,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 6.0,
+      "fit": "standard",
+      "ode_months": 19.96388525520137,
+      "search_months": 19.96484374999993,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 6.0,
+      "fit": "patient-specific",
+      "ode_months": 22.551633157946647,
+      "search_months": 22.55175781249992,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 8.0,
+      "fit": "standard",
+      "ode_months": 17.99898357717791,
+      "search_months": 17.99902343750012,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 8.0,
+      "fit": "patient-specific",
+      "ode_months": 20.511053023845825,
+      "search_months": 20.511718750000156,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 10.0,
+      "fit": "standard",
+      "ode_months": 23.790455653972472,
+      "search_months": 23.791015625000163,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 10.0,
+      "fit": "patient-specific",
+      "ode_months": 27.58044358838753,
+      "search_months": 27.5810546875002,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 12.0,
+      "fit": "standard",
+      "ode_months": 36.77723924986751,
+      "search_months": 36.77734375000026,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 12.0,
+      "fit": "patient-specific",
+      "ode_months": 44.38372107257458,
+      "search_months": 44.38378906250031,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "boy",
+      "fit_age": 6.0,
+      "fit": "patient-specific, friction 0.30",
+      "ode_months": 23.167463351374106,
+      "search_months": 23.167968749999915,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "boy",
+      "fit_age": 8.0,
+      "fit": "patient-specific, friction 0.30",
+      "ode_months": 21.600147995301207,
+      "search_months": 21.60058593750015,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "boy",
+      "fit_age": 10.0,
+      "fit": "patient-specific, friction 0.30",
+      "ode_months": 21.52856056607815,
+      "search_months": 21.529296875000142,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 6.0,
+      "fit": "patient-specific, friction 0.30",
+      "ode_months": 19.271420698491166,
+      "search_months": 19.271484374999936,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 8.0,
+      "fit": "patient-specific, friction 0.30",
+      "ode_months": 18.014666522173684,
+      "search_months": 18.015625000000135,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 10.0,
+      "fit": "patient-specific, friction 0.30",
+      "ode_months": 24.615024229687712,
+      "search_months": 24.61523437500017,
+      "ode_cause": "pressure",
+      "search_cause": "pressure"
+    },
+    {
+      "sex": "boy",
+      "fit_age": 8.0,
+      "fit": "standard, friction 0.12",
+      "ode_months": 0.0,
+      "search_months": 0.0,
+      "ode_cause": "suspension",
+      "search_cause": "suspension"
+    },
+    {
+      "sex": "girl",
+      "fit_age": 8.0,
+      "fit": "standard, friction 0.12",
+      "ode_months": 0.0,
+      "search_months": 0.0,
+      "ode_cause": "suspension",
+      "search_cause": "suspension"
+    }
+  ],
+  "worst_gap_months": 0.0009667188158672957,
+  "n_lifetimes": 28,
+  "n_same_cause": 28,
+  "n_suspension": 2,
+  "event_months": 21.590204935037,
+  "conserved_drift": 2.8259616868808735e-11,
+  "budget_day_one_pct": 5.087687477184999,
+  "budget_end_pct": 6.515866093131195,
+  "girth_rate_pct_per_year": 3.5084668619458865,
+  "bracket_months": [
+    17.300645649074617,
+    21.590204935037
+  ],
+  "time_scale_ratio": 8.806240026727557e-09,
+  "arm_time_s": 0.5,
+  "life_s": 56777920.93816031
+}

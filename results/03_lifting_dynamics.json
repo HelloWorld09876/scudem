@@ -1,0 +1,46 @@
+{
+  "tasks": {
+    "Static hold": {
+      "elbow_torque_Nm": 1.867897148288282,
+      "shoulder_torque_Nm": 1.867897148288282,
+      "socket_moment_Nm": 1.8062833818359054,
+      "peak_pressure_kPa": 43.01215467419776,
+      "pull_out_N": 5.406203294835991e-16
+    },
+    "Slow curl": {
+      "elbow_torque_Nm": 1.877185858222479,
+      "shoulder_torque_Nm": 2.1859997370584408,
+      "socket_moment_Nm": 1.8171072210124968,
+      "peak_pressure_kPa": 43.264519236366475,
+      "pull_out_N": 8.528159120306185
+    },
+    "Fast curl": {
+      "elbow_torque_Nm": 3.455234036546808,
+      "shoulder_torque_Nm": 6.276362610449839,
+      "socket_moment_Nm": 3.3977719845596983,
+      "peak_pressure_kPa": 76.68215859870254,
+      "pull_out_N": 16.745529283214875
+    },
+    "Lift to shelf": {
+      "elbow_torque_Nm": 2.114351482115779,
+      "shoulder_torque_Nm": 4.561532924630216,
+      "socket_moment_Nm": 2.048283739756912,
+      "peak_pressure_kPa": 48.05280891371655,
+      "pull_out_N": 6.763406388297457
+    }
+  },
+  "static_hold_kPa": 37.18117454793104,
+  "collapse_intercept": 0.6379455764331972,
+  "collapse_slope": 0.9955940053715919,
+  "collapse_r2": 0.997569079017675,
+  "upper_arm_m": 0.23783038072083357,
+  "engaged_length_mm": 84.00782802881056,
+  "grip_distance_mm": 255.73159217293934,
+  "radius_mm": 22.694903362358033,
+  "collapse_points": 96,
+  "low_pi_cutoff": 0.3,
+  "low_pi_points": 22,
+  "low_pi_ratio_min": 0.9933762719785176,
+  "low_pi_ratio_max": 1.0168200894893704,
+  "collapse_max_line_error": 0.3013925155320861
+}

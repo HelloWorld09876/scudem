@@ -1,0 +1,108 @@
+{
+  "A_replacement_interval": {
+    "mc_median_standard": 17.475585937500128,
+    "mc_median_individual": 21.117675781250153,
+    "mc_share_within_observed_1sd": 0.3975,
+    "mc_share_in_recommended": 0.1025,
+    "mc_share_day_one_failure": 0.29,
+    "mc_sd_among_those_that_last": 11.403117002555835,
+    "mc_mean_among_those_that_last": 23.53643540933115,
+    "deterministic_boy_cyl_5_to_12": [
+      23.62695312499992,
+      21.590820312500142,
+      26.928710937500185
+    ],
+    "deterministic_girl_cyl_5_to_12": [
+      21.525390624999922,
+      17.99902343750012,
+      36.77734375000026
+    ],
+    "deterministic_boy_tap_5_to_12": [
+      16.42285156249994,
+      16.659179687500114,
+      23.25000000000017
+    ],
+    "implied_tolerance_kPa": {
+      "cylindrical": 90.96908221732092,
+      "tapered": 99.45742959643938
+    }
+  },
+  "B_pain_threshold": {
+    "ppt_mean": 183.1,
+    "ppt_sd": 90.7,
+    "tolerance_z": -0.9162072767364938,
+    "tolerance_percentile": 17.977909480566666,
+    "implied_percentile": {
+      "cylindrical": 15.486794283185883,
+      "tapered": 17.821491909873544
+    },
+    "mc_range_percentile": [
+      11.666175195726847,
+      26.089996963680086
+    ],
+    "day_one_peak_over_ppt": 0.4186816001366797
+  },
+  "C_growth_share": {
+    "0.10": {
+      "lifetime_boy_cyl_8": 20.03613281250015,
+      "closure_boy_rule_B": 9.18353271484375
+    },
+    "0.15": {
+      "lifetime_boy_cyl_8": 20.56054687500015,
+      "closure_boy_rule_B": 9.5679931640625
+    },
+    "0.20": {
+      "lifetime_boy_cyl_8": 21.07910156250015,
+      "closure_boy_rule_B": 10.0272216796875
+    },
+    "0.25": {
+      "lifetime_boy_cyl_8": 21.590820312500142,
+      "closure_boy_rule_B": 10.5718994140625
+    },
+    "0.30": {
+      "lifetime_boy_cyl_8": 22.094726562500163,
+      "closure_boy_rule_B": 11.2103271484375
+    }
+  },
+  "D_girth": {
+    "boy": {
+      "model_pct": 43.62293168140303,
+      "muac_pct": 38.823529411764724,
+      "wrist_pct": 29.46153846153845
+    },
+    "girl": {
+      "model_pct": 38.76467960166361,
+      "muac_pct": 33.974358974358964,
+      "wrist_pct": 24.83974358974359
+    }
+  },
+  "E_volume": {
+    "age_6.0": 8.851950295864942,
+    "age_8.0": 9.395040529542475,
+    "age_10.0": 10.655407533423332,
+    "age_12.0": 10.622157184426872,
+    "whole_socket_life_pct": 18.06562502699598
+  },
+  "F_growth_out_of_sample": {
+    "boy_train_to_13": {
+      "rmse_cm": 4.4798872028826615,
+      "max_cm": 5.2283502869011045,
+      "error_at_20_cm": 4.483506547351624
+    },
+    "boy_train_to_15": {
+      "rmse_cm": 3.867763671267671,
+      "max_cm": 4.799032637026215,
+      "error_at_20_cm": 4.799032637026215
+    },
+    "girl_train_to_11.5": {
+      "rmse_cm": 1.8962068580022278,
+      "max_cm": 3.0001057557531965,
+      "error_at_20_cm": 1.2700536698349367
+    },
+    "girl_train_to_13": {
+      "rmse_cm": 6.432106732972574,
+      "max_cm": 7.537788368066032,
+      "error_at_20_cm": 7.498441993818233
+    }
+  }
+}

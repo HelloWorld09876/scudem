@@ -1,0 +1,9 @@
+{
+  "energy_drift": 1.0894969397661136e-11,
+  "replay_error_deg": 0.006688578580091207,
+  "newton_euler_error_Nm": 4.440892098500626e-16,
+  "pistoning_k_kN": 59.375423914493325,
+  "pistoning_fn_Hz": 40.879185923217804,
+  "max_slip_mm": 0.2824005492306082,
+  "dynamic_error_mm": 0.006080574172089265
+}

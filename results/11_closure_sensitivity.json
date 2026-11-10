@@ -1,0 +1,77 @@
+{
+  "cases": {
+    "Baseline": {
+      "group": "baseline",
+      "boy": 13.92706298828125,
+      "girl": 14.57537841796875
+    },
+    "object = 1.5% of body mass": {
+      "group": "load",
+      "boy": null,
+      "girl": null
+    },
+    "object = 2.5% of body mass": {
+      "group": "load",
+      "boy": 10.356201171875,
+      "girl": 10.14208984375
+    },
+    "object = 3.0% of body mass": {
+      "group": "load",
+      "boy": 7.0489501953125,
+      "girl": 7.1595458984375
+    },
+    "pressure tolerance 75 kPa": {
+      "group": "tolerance",
+      "boy": 7.73321533203125,
+      "girl": 7.79022216796875
+    },
+    "pressure tolerance 125 kPa": {
+      "group": "tolerance",
+      "boy": null,
+      "girl": null
+    },
+    "limb follows the 25% growth rule from age 6": {
+      "group": "limb",
+      "boy": 10.5718994140625,
+      "girl": 10.35015869140625
+    },
+    "limb follows the 25% growth rule from age 8": {
+      "group": "limb",
+      "boy": 11.6005859375,
+      "girl": 11.30108642578125
+    },
+    "prosthesis mass grows with height": {
+      "group": "prosthesis",
+      "boy": 13.2734375,
+      "girl": 13.29656982421875
+    },
+    "prosthesis mass grows with height\u00b3": {
+      "group": "prosthesis",
+      "boy": 12.08917236328125,
+      "girl": 11.77752685546875
+    },
+    "without the fast curl": {
+      "group": "task",
+      "boy": null,
+      "girl": null
+    }
+  },
+  "one_action_only": {
+    "Static hold": {
+      "boy": null,
+      "girl": null
+    },
+    "Slow curl": {
+      "boy": null,
+      "girl": null
+    },
+    "Fast curl": {
+      "boy": 13.92706298828125,
+      "girl": 14.57537841796875
+    },
+    "Lift to shelf": {
+      "boy": null,
+      "girl": null
+    }
+  }
+}

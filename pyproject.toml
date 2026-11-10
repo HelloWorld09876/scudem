@@ -1,0 +1,19 @@
+[project]
+name = "pedsocket"
+version = "1.0.0"
+description = "Growth-coupled socket mechanics for pediatric transradial prostheses (SCUDEM XI 2026, Problem A, Team 26126)"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "pandas>=2.0", "matplotlib>=3.8", "pillow>=10.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

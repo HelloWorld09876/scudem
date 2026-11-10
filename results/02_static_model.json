@@ -1,0 +1,17 @@
+{
+  "boy": {
+    "slope_fixed": -0.4999999999999989,
+    "slope_object_term": 0.49999999999999795,
+    "slope_prosthesis_term": -0.49999999999999856,
+    "max_rel_error_leading": 0.15858073859522118,
+    "age_object_term_twice_prosthesis": 5.75
+  },
+  "girl": {
+    "slope_fixed": -0.5000000000000003,
+    "slope_object_term": 0.499999999999999,
+    "slope_prosthesis_term": -0.5000000000000009,
+    "max_rel_error_leading": 0.15858073859522107,
+    "age_object_term_twice_prosthesis": 6.0
+  },
+  "boy_age8_static_kPa": 37.18117454793104
+}

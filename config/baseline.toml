@@ -1,0 +1,89 @@
+# Baseline parameters for every script. Change a number here and re-run `python scripts/run_all.py` to see what it does.
+#
+# A heads-up on where the numbers come from: body proportions are standard anthropometric ratios (Winter 2009). The tissue and
+# socket numbers further down are working assumptions picked in a plausible range. Nobody has measured them on children's
+# residual limbs, and the results move when they move (see scripts/07 and scripts/11).
+
+[anthropometry]                  # segment sizes as fractions of height H and mass as fractions of body mass M
+f_upper_arm_length = 0.186       # adult ratios; young children really have relatively shorter limbs, so this is a simplification
+f_forearm_length = 0.146
+f_hand_length = 0.108
+f_upper_arm_mass = 0.028
+f_forearm_mass = 0.016
+f_hand_mass = 0.006
+upper_arm_com = 0.436            # centre of mass and radius of gyration, as a fraction of segment length
+upper_arm_gyration = 0.322
+forearm_com = 0.430
+forearm_gyration = 0.303
+tissue_density = 1100.0          # kg/m^3, used to turn forearm mass into a radius
+
+[residual_limb]
+residual_fraction = 0.45         # residual limb is 45% of the forearm. The window-closure age is very sensitive to this one
+proximal_growth_share = 0.25     # the limb grows at 25% of the forearm's rate: most forearm growth is at the wrist-end plates, which are gone
+atrophy_ratio = 0.90             # residual limb is 10% thinner than a full forearm
+soft_tissue_fraction = 0.40      # soft-tissue thickness as a fraction of limb radius
+
+[tissue]                         # assumed values, not child measurements
+tissue_modulus = 100e3           # Pa, how stiff the tissue is when lightly squeezed
+tissue_stiffening = 6.0          # how quickly it stiffens when squeezed harder
+friction = 0.5                   # skin-to-liner friction coefficient
+pressure_tolerance = 100e3       # Pa, the pressure we treat as "too much". A judgment call; results change a lot if you move it
+
+[prosthesis]
+prosthesis_mass = 0.40           # kg, kept the same at every age (see scripts/11 for what happens if it grows)
+prosthesis_com = 0.55
+prosthesis_gyration = 0.30
+distal_clearance = 0.005         # m of empty space at the bottom of the socket
+fit_strain = 0.05                # how tight a standard fit is (5% squeeze)
+suspension_safety = 1.25         # friction must beat the worst pull-out force by this factor
+
+[socket]
+socket_shape = "cylindrical"     # or "tapered"
+taper_deg = 4.0
+donning_force = 60.0             # N the child can push with when putting the limb in
+
+[load]
+load_mode = "fixed"              # "fixed": same 0.5 kg at every age. "scaled": object is a fixed share of body mass
+object_mass = 0.5                # kg
+object_fraction = 0.02           # share of body mass when load_mode = "scaled". The closure age is very sensitive to this
+speed_factor = 1.0               # 1 = normal speed, 2 = twice as fast
+
+[strength]                       # used only for the musculoskeletal extension
+elbow_strength_adult = 70.0
+shoulder_strength_adult = 65.0
+residual_strength_ratio = 0.80
+reference_mass = 70.0
+reference_height = 1.77
+
+[trunk]
+f_trunk_length = 0.288
+f_hat_mass = 0.678               # head + arms + trunk share of body mass
+hat_com = 0.626
+
+[interface_dynamics]
+interface_damping = 0.30         # damping ratio for the pistoning check
+
+# The four actions we test. Angles are shoulder and elbow, start then end, in degrees. Duration is in seconds.
+[[tasks]]
+name = "Static hold"
+shoulder_deg = [0.0, 0.0]
+elbow_deg = [90.0, 90.0]
+duration = 1.0
+
+[[tasks]]
+name = "Slow curl"
+shoulder_deg = [5.0, 20.0]
+elbow_deg = [10.0, 130.0]
+duration = 1.2
+
+[[tasks]]
+name = "Fast curl"               # the one that decides almost everything, because speed adds inertial load
+shoulder_deg = [5.0, 20.0]
+elbow_deg = [10.0, 130.0]
+duration = 0.5
+
+[[tasks]]
+name = "Lift to shelf"
+shoulder_deg = [10.0, 100.0]
+elbow_deg = [30.0, 30.0]
+duration = 1.2
